@@ -1,0 +1,32 @@
+<html>
+    <head>
+	<title>Simple Interest Calculator</title>
+    <link rel="stylesheet" href="mystyle.css">
+    
+    </head>
+
+    <body>
+        <h1 align="center">Simple Interest Calculator</h1>
+<div>
+        Principal Amount: <input type="text" style="font-size: 18pt; height: 40px; width:280px; "id="p"><br/>
+        Rate of Interest: <input type="text" style="font-size: 18pt; height: 40px; width:280px; "id="r"><br/>
+        No. of Years:&emsp;&emsp; <input type="text" style="font-size: 18pt; height: 40px; width:280px; "id="n">
+        <br/><br>
+        <button onclick="calculate()">Calculate</button>
+        <p id="result"></p>
+</div>
+        <script>
+            function calculate()
+               {
+                   p = document.getElementById("p").value;
+                   n = document.getElementById("n").value;
+                   r = document.getElementById("r").value;
+                   result = document.getElementById("result");                
+                   result.innerHTML = "The interest is ₹&nbsp;" + (p*n*r/100);
+               }
+           </script>
+           <footer id="footer">
+            <p>&copy; Likhita Sree.</p>
+          </footer>
+    </body>
+</html>

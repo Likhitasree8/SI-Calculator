@@ -1,0 +1,24 @@
+body {
+	background: linear-gradient(#dd5e89 , #f7bb97);
+	font-family:cursive;	
+}
+h1 {
+	color: rgb(54, 196, 196);
+	font-size:52;	
+}
+div {
+
+	text-align: center;
+	font-size:32;	
+}
+button {
+	font-size: 30;
+	font-family:cursive;
+	background-color: rgb(37, 139, 117);
+}
+#footer {
+	position:absolute;
+	bottom:0;
+	color:rgb(110, 99, 99);
+	font-size: 30px;
+}
